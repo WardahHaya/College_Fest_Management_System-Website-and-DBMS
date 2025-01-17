@@ -1,41 +1,32 @@
-# Fest-Management-website-and-database-management-system
-It is a complete college fest website design along with management of database system of all participants and events.
+# College Fest Management Website and Database Management System 🎉
 
+A complete web solution to manage college fests, events, participants, and more — all integrated with a powerful database system. Admins can manage fest data, while participants enjoy a seamless registration experience. This project offers both an engaging frontend and a comprehensive admin panel for complete fest management.
 
-COLLEGE FEST WEBSITE INTEGRATED WITH DATABASE .
-	This project has full working website connected to database that is managed by admin panel.
+## Features 🚀
 
+### 🎤 **Frontend (User Interface)**
 
-A). Features:
+- **Modern & Responsive Design:**  
+  Clean, simple, and mobile-friendly, ensuring the website looks great on any device.
 
-- made with HTML5,CSS3,Javascript,Jquery,PHP
-- neat , simple and modern design
-- fully responsive
-- cross browser optimization
-- use of Google Map and Google Calendar
-- pdf viewer 
+- **Event Management:**  
+  - View all fest events listed on the site.
+  - Easy registration with event details dynamically fetched from the database.
+  - Google Calendar integration for event scheduling.
 
+- **Sponsor & Chief Guest Showcase:**  
+  Display the list of fest sponsors and chief guests with engaging visuals.
 
-********************************************************************************************************************************************
+- **Participant Dashboard:**  
+  Participants can easily log in to track their registrations, event timings, and updates.
 
-B). 
-FRONTEND:
-It has a wonderful exciting front webpages.
+- **Registration Form:**  
+  A seamless registration process to obtain a unique ID for event participation.
 
-1).Events
-There are several different types of events shown on different pages of navbar. Each  of these has a registration form along with all the details of events which are fetched from the database of events.
+- **Admin Login:**  
+  Admins can manage fest data, track social media mentions, and monitor website activity from the backend.
 
-2). Sponsors of the fest had been displayed along with wonderful guests list.
-
-3).Registration button
-It takes you to  registration form from where participation can get their unique id to further take part in any event.
-
-4). Participant login button
-It will make participants see all the events they have registered into along with their timings and changes if any.
-
-5).Admin login page
-This will enable the admisitrator to enter into the admin panel of website and change any data of the complete fest and look for other details such as how many people have visited the website and how event is enlarging on social media platforms.
-
+  
 ![alt text](https://github.com/ritikajha/Fest_Management_System/blob/master/images/1.PNG)
 
 ![alt text](https://github.com/ritikajha/Fest_Management_System/blob/master/images/2.PNG)
@@ -52,41 +43,34 @@ This will enable the admisitrator to enter into the admin panel of website and c
 
 ![alt text](https://github.com/ritikajha/Fest_Management_System/blob/master/images/8.PNG)
 
+### 🛠️ **Admin Panel**
 
-ADMIN PANEL :
-Admin Dashboard  or panel to use during college fests.
+- **Powerful Admin Dashboard:**  
+  Built with Bootstrap 4, HTML5, CSS, JavaScript, and PHP — fully responsive and user-friendly.
 
-1). Overview - 
-ZEPHYR Admin is a full-featured, multipurpose admin, built with Bootstrap 4 Framework, HTML5, CSS, Javascript , PHP.
-It is a fully responsive admin dashboard that is user-friendly and can be operated with great ease .
+- **Manage Events:**  
+  - Add, edit, and delete events with ease.
+  - View events on Google Calendar.
 
-2). How to use -
-Index Page - The first page that is opened after admin is logged in is Index Page. When opened , we can see stastics related to fest's database in the middle area.
-When clicking on the ZEPHYR logo on top left corner or on 'Home' in navigation area , we are directed to index page.
+- **Participants, Volunteers & Managers:**  
+  - Add, edit, or delete participants, volunteers, and managers’ details.
+  
+- **Sponsors & Chief Guests Management:**  
+  - Manage the list of sponsors and chief guests for the fest.
 
-Along with index page , all other pages have following parts in left menu - 
-- Query Box - This is an input field that takes any query as input and prints the corresponding results . Some queries have been provided handy for non-MySQL users. If you want to  see your queries in the Available Queries section , type them in file 'availableQueries.txt' inside folder admin_zephyr and save it.
+- **Real-Time Data & Analytics:**  
+  Track website activity, event participation, and social media buzz from the admin dashboard.
 
-- Event Menu - It takes care of showing all events in Google Calendar, creating an event, editing and deleting events .
+- **Google Maps Integration:**  
+  View event venues on Google Maps with location markers.
 
-- Managers Menu - Information associated with Managers - all Manager's details ,adding a Manager, editing and deleting a Manager data, can be done using this menu .
+- **PDF Viewer:**  
+  View, print, or download PDFs directly from the admin panel.
 
-- Participants Menu -  Information associated with Participants - all Participant details , important/required details of Participants and delete Participants , can be selected from this menu .
+- **Secure Logout:**  
+  Ensure admin security with a simple logout feature.
 
-- Volunteers Menu - Information associated with Volunteers - all Volunteer details , adding a Volunteer, editing and deleting a Volunteer data, can be done using this menu .
-
-- Sponsors Menu - Information associated with Sponsors - all Sponsors details , adding a Sponsor , editing and deleting a Sponsor data, can be done from this menu .
-
-- Chief Guests Menu - Information associated with Chief Guests - all Chief Guests details , adding a Chief Guest, editing and deleting a Chief Guest data, can be done using this menu .
-
-- Interface 
-	- Google Map - All venue related to events are shown on Google Maps with markers . 
-	- PDF Viewer - To view any PDF/text file , PDF viewer can be used . Also PDF can be printed and downloaded.
-	
-- Logout  tab - To successfully come out of ZEPHYR Admin , this tab has to be clicked .	
-
-
-![alt text](https://github.com/ritikajha/Fest_Management_System/blob/master/images/9.PNG)
+  ![alt text](https://github.com/ritikajha/Fest_Management_System/blob/master/images/9.PNG)
 
 ![alt text](https://github.com/ritikajha/Fest_Management_System/blob/master/images/10.PNG)
 
@@ -98,36 +82,104 @@ Along with index page , all other pages have following parts in left menu -
 
 ![alt text](https://github.com/ritikajha/Fest_Management_System/blob/master/images/14.PNG)
 
-********************************************************************************************************************************************
+## How It Works 🔧
 
+### 💻 **Tech Stack**
+- Frontend: HTML5, CSS3, JavaScript, jQuery, PHP
+- Backend: Bootstrap 4, PHP, MySQL
 
-C). Installation :
-Here you can see two folders, front_zephyr and admin_zephyr
-	front_zephyr-> It consists of all the files , necessary to run the frontend webpages
-	admin_zephyr-> It consists of all the files , necessary to run the admin panel of ZEPHYR ,i.e. ZEPHYR Admin .
+### 🔄 **Frontend & Admin Panel Integration**
 
-To run the code on localhost , in your PC, 
+- **Database-Driven Content:**  
+  Event data, participant details, and other content are dynamically pulled from the MySQL database.
 
-1).Install Xampp from https://www.apachefriends.org/index.html
+- **Admin Queries:**  
+  Admins can run SQL queries directly from the admin panel using a built-in query box.
 
-2).Go to Xampp-control , in the xampp folder, and start Apache and Mysql
+- **Real-Time Updates:**  
+  Event registrations and participant data are updated in real-time, offering the most accurate information.
 
-3).Now, save the two folders, front_zephyr and admin_zephyr in the folder 'htdocs' , which you will find in the xampp folder itself.
+### 📅 **Event and Schedule Management**
+- **Google Calendar Integration:**  
+  Events are shown in Google Calendar, and admins can easily add, edit, or delete events directly from the panel.
 
-4).Open any web browser, preferably chrome, now search for "localhost/phpmyadmin/" in URL tab, this will take you to your phpmyadmin page.
+- **Interactive Google Map:**  
+  Event venues are mapped using Google Maps, allowing users to easily locate event locations.
 
-5).Go to import and import the database using the file zephyr.sql provided in this folder.
+### 🔒 **Security Features**
 
-6).Create a user and give it all the privileges of the imported database.
+- Admins can log in securely and access the system using a dedicated login page with password protection.
+  
+## Installation Instructions 🛠️
 
-7).In both the folders, front_zephyr and admin_zephyr , you will find a file "linc.php", this file makes connection of the webpages with the database. Open this file in any text    editor and change the name of user and password to the same which you have created in previous steps. Save the changes.
+### 🚀 **Getting Started**
 
-8).Again go to any web browser, preferably chrome, and in URL tab , type "localhost/front_zephyr/mainpage.php", this will take you to the website.
+1. **Download and Install XAMPP:**  
+   Download XAMPP from [Apache Friends](https://www.apachefriends.org/index.html) and install it.
 
-9).Now the website can be  traversed.
+2. **Start Apache & MySQL:**  
+   Open the XAMPP control panel and start Apache and MySQL services.
 
-10).To login to the admin panel, go to admin menu in navigation bar, valid credentials are:-
-Username:-  admin
-Password:-  admin
-(These credentials can be changed as per convinience.)
+3. **Setup the Project:**  
+   - Download the project and save the `front_zephyr` and `admin_zephyr` folders inside your `htdocs` directory (found in your XAMPP installation folder).
 
+4. **Database Configuration:**  
+   - Open your browser and go to `localhost/phpmyadmin/` to open PhpMyAdmin.
+   - Import the `zephyr.sql` file into PhpMyAdmin.
+   - Create a new MySQL user and assign it all privileges for the `zephyr` database.
+
+5. **Database Connection:**  
+   - Open the `linc.php` file inside both `front_zephyr` and `admin_zephyr` folders.
+   - Change the username and password in the `linc.php` file to match your MySQL credentials.
+   - Save the file.
+
+6. **Launch the Website:**  
+   - Open the browser and go to `localhost/front_zephyr/mainpage.php` to view the frontend website.
+
+7. **Access Admin Panel:**  
+   - Navigate to `localhost/admin_zephyr/admin_login.php` and use the default login credentials:
+     - Username: `admin`
+     - Password: `admin`
+
+## Example Usage 📋
+
+### **Explore the Website**
+- **View all events:**  
+  Navigate to the event section to browse through the fest’s event details.
+  
+- **Register for an event:**  
+  Click the registration button to sign up for an event and receive your unique participant ID.
+
+- **Check participant dashboard:**  
+  After registration, access the participant dashboard to view your events and timings.
+
+- **Admin tasks:**  
+  Admins can log in and perform tasks like adding new events, managing participants, and updating fest details.
+
+## Future Enhancements 🌟
+
+- **Enhanced Search Functionality:**  
+  Add filters and a search bar for easier navigation through events, participants, and sponsors.
+
+- **Mobile App Integration:**  
+  Develop a mobile app for easier event tracking and registration on-the-go.
+
+- **Event Ticketing System:**  
+  Implement a ticketing system where participants can book tickets for different events.
+
+- **Multilingual Support:**  
+  Add multiple language support to make the system more accessible to a wider audience.
+
+## Contributing 🤝
+
+We welcome contributions from the community! Here’s how you can help:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make changes and commit.
+4. Open a pull request.
+5. Submit an issue if you have any suggestions or feedback.
+
+## Author 👩‍💻
+This project was developed by Wardah Haya.  
+Feel free to reach out for any queries or suggestions: wardahhaya.19@gmail.com ✉️. 
